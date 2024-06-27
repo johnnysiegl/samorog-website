@@ -33,10 +33,6 @@ const LogoText = styled.span`
   font-family: 'Sedan SC', serif; /* Usando a fonte do Google */
 `;
 
-const Logo = styled.div`
-  flex: 1;
-`;
-
 const Nav = styled.nav`
   display: flex;
   gap: 20px;
