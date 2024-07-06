@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const MainContentContainer = styled.section`
   padding: 60px 20px;
   background: #f0f0f0;
-  width: 95%;
 `;
 
 const Title = styled.div`
