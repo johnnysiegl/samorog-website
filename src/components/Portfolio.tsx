@@ -107,7 +107,7 @@ const Portfolio: React.FC = () => {
         <PortfolioItem backgroundImage={image4} onClick={() => setFullscreenImage(image4)}></PortfolioItem>
         <PortfolioItem backgroundImage={image5} onClick={() => setFullscreenImage(image5)}></PortfolioItem>
       </PortfolioContainer>
-      <LinkPortifolio><a target='_blank' href='https://carolzanna.my.canva.site/portfolio'>conheça mais clicando aqui</a></LinkPortifolio>
+      <LinkPortifolio><a target='_blank' rel="noopener noreferrer" href='https://carolzanna.my.canva.site/portfolio'>conheça mais clicando aqui</a></LinkPortifolio>
     </>
   );
 }

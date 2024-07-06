@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
   
     return (
       <FooterContainer>
-        Samorog <LogoImage src={logo} /> <a target='_blank' href='https://www.instagram.com/samorogbr/'><LogoInsta src={instagram} /></a> | <DevelopedBy>Desenvolvido por <Link href='mailto:johsiegl@gmail.com'>JS Consultoria</Link></DevelopedBy>
+        Samorog <LogoImage src={logo} /> <a target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/samorogbr/'><LogoInsta src={instagram} /></a> | <DevelopedBy>Desenvolvido por <Link href='mailto:johsiegl@gmail.com'>JS Consultoria</Link></DevelopedBy>
       </FooterContainer>
     );
   }
