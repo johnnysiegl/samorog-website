@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import image1 from '../assets/portfolio/1.png';
 import image2 from '../assets/portfolio/2.png';
 import image3 from '../assets/portfolio/3.png';
+import image4 from '../assets/portfolio/4.png';
+import image5 from '../assets/portfolio/5.png';
 
 const PortfolioContainer = styled.section`
   padding: 60px 20px;
@@ -89,8 +91,8 @@ const Portfolio: React.FC = () => {
         <PortfolioItem backgroundImage={image1} onClick={() => setFullscreenImage(image1)}></PortfolioItem>
         <PortfolioItem backgroundImage={image2} onClick={() => setFullscreenImage(image2)}></PortfolioItem>
         <PortfolioItem backgroundImage={image3} onClick={() => setFullscreenImage(image3)}></PortfolioItem>
-        <PortfolioItem backgroundImage={image1} onClick={() => setFullscreenImage(image1)}></PortfolioItem>
-        <PortfolioItem backgroundImage={image2} onClick={() => setFullscreenImage(image2)}></PortfolioItem>
+        <PortfolioItem backgroundImage={image4} onClick={() => setFullscreenImage(image4)}></PortfolioItem>
+        <PortfolioItem backgroundImage={image5} onClick={() => setFullscreenImage(image5)}></PortfolioItem>
       </PortfolioContainer>
     </>
   );

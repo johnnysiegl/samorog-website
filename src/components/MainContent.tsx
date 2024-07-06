@@ -38,7 +38,7 @@ const MainContent: React.FC = () => {
         <ContentBox>GERENCIAMENTO DE MARCA</ContentBox>
         <ContentBox>CONTEÚDO MÍDIAS SOCIAIS</ContentBox>
         <ContentBox>ARTE DIGITAL</ContentBox>
-        <ContentBox>GERENCIAMENTO DE MARCA</ContentBox>
+        <ContentBox>A SOLUÇÃO QUE SUA EMPRESA PRECISA</ContentBox>
       </ContentContainer>
     </MainContentContainer>
   );
