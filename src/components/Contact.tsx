@@ -7,8 +7,29 @@ const ContactContainer = styled.section`
   background: #f0f0f0;
 `;
 
-const Title = styled.h2`
-  font-family: 'Sedan SC', serif;
+const Title = styled.div`
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  &::before,
+  &::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+    margin: 0 20px;
+  }
+`;
+
+const TitleContainer = styled.div`
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+  text-align: center;
 `;
 
 const Form = styled.form`
@@ -89,8 +110,11 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <ContactContainer id="contact">
-      <Title>Contato</Title>
+    <>
+    <TitleContainer id="contact">
+      <Title>contato</Title>
+    </TitleContainer>
+    <ContactContainer>
       <Form onSubmit={handleSubmit}>
         <Input
           type="text"
@@ -118,6 +142,7 @@ const Contact: React.FC = () => {
         <Button type="submit">Enviar</Button>
       </Form>
     </ContactContainer>
+    </>
   );
 }
 
