@@ -4,6 +4,7 @@ import Header from './components/Header';
 import MainContent from './components/MainContent';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -26,6 +27,7 @@ const App: React.FC = () => {
         <Portfolio />
         <Contact />
       </main>
+      <Footer />
     </AppContainer>
   );
 }

@@ -7,7 +7,7 @@ import image4 from '../assets/portfolio/4.png';
 import image5 from '../assets/portfolio/5.png';
 
 const PortfolioContainer = styled.section`
-  padding: 60px 20px;
+  padding: 60px 20px 20px 10px;
   background: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -47,6 +47,19 @@ const PortfolioItem = styled.div<{ backgroundImage: string }>`
   cursor: pointer;
   margin-bottom: 20px;
   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+`;
+
+const LinkPortifolio = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 25px;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 `;
 
 const FullscreenImage = styled.div<{ backgroundImage: string }>`
@@ -94,6 +107,7 @@ const Portfolio: React.FC = () => {
         <PortfolioItem backgroundImage={image4} onClick={() => setFullscreenImage(image4)}></PortfolioItem>
         <PortfolioItem backgroundImage={image5} onClick={() => setFullscreenImage(image5)}></PortfolioItem>
       </PortfolioContainer>
+      <LinkPortifolio><a target='_blank' href='https://carolzanna.my.canva.site/portfolio'>conheça mais clicando aqui</a></LinkPortifolio>
     </>
   );
 }
