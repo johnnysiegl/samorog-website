@@ -93,7 +93,7 @@ const Contact: React.FC = () => {
       subject: "Contato via site"
     };
 
-    emailjs.send('your_service_id', 'your_template_id', templateParams, 'your_user_id')
+    emailjs.send('service_wi2ans1', 'template_v6t98is', templateParams, 'zbKEsFg52hnGMSbQw')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Mensagem enviada com sucesso!');
